@@ -1,0 +1,45 @@
+.register-title {
+  font-size: 2rem;
+}
+
+.register-container {
+  width: 100%;
+}
+
+.progress-container {
+  // border: 1px solid red;
+  width: 100%;
+  margin: 2.5rem 0;
+}
+
+.progress-group {
+  // border: 1px solid blue;
+  width: 100%;
+  position: relative;
+}
+
+.progress-icon {
+  border: 1px solid black;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+  color: black;
+  background-color: #fff;
+  font-size: 12px;
+  margin-right: 0.5rem;
+}
+
+.progress-bar {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: calc(-70% + 3rem);
+  right: calc(80% + 3.8rem);
+  height: 2px;
+  background-color: black;
+}
+
+// TODO: bar的槓槓在不同百分比會歪掉，待解決

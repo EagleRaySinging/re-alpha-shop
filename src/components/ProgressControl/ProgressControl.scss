@@ -1,0 +1,29 @@
+.progress-control-container {
+  width: 100%;
+  margin: 1rem 0;
+  border-top: 2px solid #ebebf5;
+}
+
+.button-group {
+  width: 100%;  
+  display: flex;
+  justify-content: end;
+  margin: 1.5rem 0;
+}
+
+
+.next {
+  width: 10.5rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  background-color: #ee749e;
+  color: #fff;
+}
+.cursor-point {
+  padding: 0 1rem;
+}
