@@ -1,4 +1,5 @@
 import './ProgressControl.scss'
+import rightArrow from '/icons/right-arrow.svg'
 
 export default function ProgressControl() {
 
@@ -39,7 +40,7 @@ export default function ProgressControl() {
       <section className="button-group" data-phase="address">
         <button className="next">
           下一步
-          <object data="/icons/right-arrow.svg" className="cursor-point">
+          <object data={rightArrow} className="cursor-point">
           </object>
         </button>
       </section>
