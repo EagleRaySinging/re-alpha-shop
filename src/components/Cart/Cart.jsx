@@ -6,15 +6,15 @@ export default function Cart() {
       <h3 className="cart-title cart-col">購物籃</h3>
       <section className="product-list cart-col" data-total-price="0">
         <div className="product-container" data-count="0" data-price="3999">
-          <img className="img-container" src="../../../public/images/product-1.jpg" />
+          <img className="img-container" src="/images/product-1.jpg" />
           <div className="product-info">
             <div className="product-name">破壞補丁修身牛仔褲</div>
             <div className="product-control-container">
               <div className="product-control">
-                <object data="../../../public/icons/minus.svg" className="product-action minus">
+                <object data="/icons/minus.svg" className="product-action minus">
                 </object>
                 <span className="product-count">1</span>
-                <object data="../../../public/icons/plus.svg" className="product-action plus">
+                <object data="/icons/plus.svg" className="product-action plus">
                 </object>
               </div>
             </div>
@@ -22,15 +22,15 @@ export default function Cart() {
           </div>
         </div>
         <div className="product-container" data-count="0" data-price="1299">
-          <img className="img-container" src="../../../public/images/product-2.jpg" />
+          <img className="img-container" src="/images/product-2.jpg" />
           <div className="product-info">
             <div className="product-name">刷色直筒牛仔褲</div>
             <div className="product-control-container">
               <div className="product-control">
-                <object data="../../../public/icons/minus.svg" className="product-action minus">
+                <object data="/icons/minus.svg" className="product-action minus">
                 </object>
                 <span className="product-count">1</span>
-                <object data="../../../public/icons/plus.svg" className="product-action plus">
+                <object data="/icons/plus.svg" className="product-action plus">
                 </object>
               </div>
             </div>

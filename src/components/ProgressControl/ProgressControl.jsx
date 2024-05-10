@@ -39,7 +39,7 @@ export default function ProgressControl() {
       <section className="button-group" data-phase="address">
         <button className="next">
           下一步
-          <object data="../../../public/icons/right-arrow.svg" className="cursor-point">
+          <object data="/icons/right-arrow.svg" className="cursor-point">
           </object>
         </button>
       </section>
